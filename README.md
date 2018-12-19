@@ -20,22 +20,6 @@ augmentor.augmentation()
 ```
 
 
-
-|Type               |Augmented Image|
-|--:--|--:--|
-| original image | <img src="docs/pics_1_6.jpg" width="200" height="150">           |
-|color inversion    |<img src="docs/pics_1_6_color_inversion.jpg" width="200" height="150"> |
-|exposure           |<img src="docs/pics_1_6_exposure.jpg" width="200" height="150">        |
-|gamma              |<img src="docs/docs/pics_1_6_gamma.jpg" width="200" height="150">      |
-|log correlation    |<img src="docs/pics_1_6_log_correlation.jpg" width="200" height="150"> |
-|random noise       |<img src="docs/pics_1_6_random_noise.jpg" width="200" height="60">     |
-|rescale            |<img src="docs/pics_1_6_rescale.jpg" width="200" height="150">         |
-|rgb2gray           |<img src="docs/pics_1_6_rgb2gray.jpg" width="200" height="150">        |
-|rotate             |<img src="docs/pics_1_6_rotate_45.jpg" width="200" height="150">       |
-|sigmoid correlation|<img src="pics_1_6_sigmoid_correlation.jpg" width="200" height="150">  |
-
-
-
 ## Augmentation Types
 - color inversion
 - exposure
@@ -58,3 +42,22 @@ Then add one new line at the end of function **```single_augmentation```**:
 self.__augmentation_and_save(self.new_type, name, img, out_folder)
 ```
 It's OK.
+
+<center>
+
+|Type               |Augmented Image|
+|:---:|:---:|
+| original image | <img src="docs/pics_1_6.jpg" width="400" height="350" />           |
+|color inversion    |<img src="docs/pics_1_6_color_inversion.jpg" width="400" height="350" /> |
+|exposure           |<img src="docs/pics_1_6_exposure.jpg" width="400" height="350" />        |
+|gamma              |<img src="docs/pics_1_6_gamma.jpg" width="400" height="350" />      |
+|log correlation    |<img src="docs/pics_1_6_log_correlation.jpg" width="400" height="350" /> |
+|random noise       |<img src="docs/pics_1_6_random_noise.jpg" width="400" height="350" />     |
+|rescale            |<img src="docs/pics_1_6_rescale.jpg" width="400" height="350" />         |
+|rgb2gray           |<img src="docs/pics_1_6_rgb2gray.jpg" width="400" height="350" />        |
+|rotate             |<img src="docs/pics_1_6_rotate_45.jpg" width="400" height="350" />       |
+|sigmoid correlation|<img src="docs/pics_1_6_sigmoid_correlation.jpg" width="400" height="350" />  |
+
+</center>
+
+
