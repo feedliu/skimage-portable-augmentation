@@ -31,7 +31,7 @@ augmentor.augmentation()
 - rotate
 - sigmoid correlation
 
-Every image will get 12 new images. If you want add new type, just open the file image_augmentation.py.
+Each image will get 12 new images. If you want add new type, just open the file image_augmentation.py.
 And add a new member function like this:
 ```python
 def new_type(self, image):
@@ -60,6 +60,6 @@ It's OK.
 
 </center>
 
-## Refference
+## Reference
 [kaggle notebook](https://www.kaggle.com/tomahim/image-manipulation-augmentation-with-skimage/notebook)
 
