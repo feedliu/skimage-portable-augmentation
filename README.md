@@ -20,18 +20,18 @@ augmentor = ImageAugmentor(in_path, num_thread=8, extension="jpg", out_folder=ou
 augmentor.augmentation()
 ```
 
-|Type           |Augmented Image                                                                                                                     |
-|--:---------------|--:-------------------------------------------------------------------------------------------------------------------------|
-|original image |<img src="docs/pics_1_6.jpg" width="200" height="150">      |                                                                  
-|color inversion|<img src="docs/pics_1_6_color_inversion.jpg" width="200" height="150"> |
-|exposure       |<img src="docs/pics_1_6_exposure.jpg" width="200" height="150">   |
-|gamma          |<img src="docs/docs/pics_1_6_gamma.jpg" width="200" height="150">     |
-|log correlation|<img src="docs/pics_1_6_log_correlation.jpg" width="200" height="150"> |
-|random noise   |<img src="docs/pics_1_6_random_noise.jpg" width="200" height="60">   |
-|rescale        |<img src="docs/pics_1_6_rescale.jpg" width="200" height="150">  |                                                                                                    
-|rgb2gray       |<img src="docs/pics_1_6_rgb2gray.jpg" width="200" height="150"> |
-|rotate         |<img src="docs/pics_1_6_rotate_45.jpg" width="200" height="150"> |
-|sigmoid correlation|<img src="pics_1_6_sigmoid_correlation.jpg" width="200" height="150"> |
+|Type               |Augmented Image                     |
+|--:----------------|--:-------------------------------------------------------------|
+|original image     |<img src="docs/pics_1_6.jpg" width="200" height="150">           |
+|color inversion    |<img src="docs/pics_1_6_color_inversion.jpg" width="200" height="150"> |
+|exposure           |<img src="docs/pics_1_6_exposure.jpg" width="200" height="150">        |
+|gamma              |<img src="docs/docs/pics_1_6_gamma.jpg" width="200" height="150">      |
+|log correlation    |<img src="docs/pics_1_6_log_correlation.jpg" width="200" height="150"> |
+|random noise       |<img src="docs/pics_1_6_random_noise.jpg" width="200" height="60">     |
+|rescale            |<img src="docs/pics_1_6_rescale.jpg" width="200" height="150">         |
+|rgb2gray           |<img src="docs/pics_1_6_rgb2gray.jpg" width="200" height="150">        |
+|rotate             |<img src="docs/pics_1_6_rotate_45.jpg" width="200" height="150">       |
+|sigmoid correlation|<img src="pics_1_6_sigmoid_correlation.jpg" width="200" height="150">  |
 
 # Augmentation Types
 - color inversion
