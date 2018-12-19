@@ -7,6 +7,6 @@ if __name__ == "__main__":
                         level=logging.DEBUG)
     # if you want to put new images in the in_folder, just ignore out_folder parameter
     #augmentor = ImageAugmentor("/home/feedliu/Documents/skimage-portable-augmentation/images")
-    augmentor = ImageAugmentor("/home/feedliu/Documents/skimage-portable-augmentation/images",
-                               out_folder="/home/feedliu/Documents/skimage-portable-augmentation/augmentation", num_thread=8, extension="jpg")
+    augmentor = ImageAugmentor("./images",
+                               out_folder="./augmentation", num_thread=8, extension="jpg")
     augmentor.augmentation()
