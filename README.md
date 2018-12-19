@@ -7,16 +7,16 @@ Skimage-portable-augmentation is a portable and parallel image augmentor, implem
 
 # Examples
 
-**```in_path```** should be the *absolute directory path* which contain all images, and each of subdirs denotes a class;\
-**```out_path```** should be the output *absolute directory path*, and the output directory will have the same structure of subdirs with the in_path;\
+**```in_path```** should be the directory which contain all images, and each of subdirs denotes a class;\
+**```out_path```** should be the output directory, and the output directory will have the same structure of subdirs with the in_path;\
 **```num_thread```** should be the number of threads to process the augmentation;\
 **```extension```** should be the extension to be used when generating new images;\
 **```verbose```** should be a bool value to control whether to show the aumentation info.\
 
 if you want to put new images in the in_folder, just ignore out_folder parameter
 ```python
-#augmentor = ImageAugmentor(in_path)
-augmentor = ImageAugmentor(in_path, num_thread=8, extension="jpg", out_folder=out_path, verbose=True)
+#augmentor = ImageAugmentor("./images")
+augmentor = ImageAugmentor("./images", num_thread=8, extension="jpg", out_folder="./augmentation", verbose=True)
 augmentor.augmentation()
 ```
 
