@@ -1,11 +1,10 @@
-Title : skimage-portable-augmentation
-Author : feedliu
+# skimage-portable-augmentation
 
-[TITLE]
-# Introduction
-Skimage-portable-augmentation is a portable and parallel image augmentor, implemented by skimage(scikit-image) library. If you just want to make a augmentation, and give me a directory to get augmented images, this project actually is what you want.
+## Introduction
 
-# Examples
+  Skimage-portable-augmentation is a portable and parallel image augmentor, implemented by skimage(scikit-image) library. If you just want to make a augmentation, and give me a directory to get augmented images, this project actually is what you want.
+
+## Examples
 
 **```in_path```** should be the *absolute directory path* which contain all images, and each of subdirs denotes a class;\
 **```out_path```** should be the output *absolute directory path*, and the output directory will have the same structure of subdirs with the in_path;\
@@ -20,9 +19,11 @@ augmentor = ImageAugmentor(in_path, num_thread=8, extension="jpg", out_folder=ou
 augmentor.augmentation()
 ```
 
-|Type               |Augmented Image                     |
-|--:----------------|--:-------------------------------------------------------------|
-|original image     |<img src="docs/pics_1_6.jpg" width="200" height="150">           |
+
+
+|Type               |Augmented Image|
+|--:--|--:--|
+| original image | <img src="docs/pics_1_6.jpg" width="200" height="150">           |
 |color inversion    |<img src="docs/pics_1_6_color_inversion.jpg" width="200" height="150"> |
 |exposure           |<img src="docs/pics_1_6_exposure.jpg" width="200" height="150">        |
 |gamma              |<img src="docs/docs/pics_1_6_gamma.jpg" width="200" height="150">      |
@@ -33,7 +34,9 @@ augmentor.augmentation()
 |rotate             |<img src="docs/pics_1_6_rotate_45.jpg" width="200" height="150">       |
 |sigmoid correlation|<img src="pics_1_6_sigmoid_correlation.jpg" width="200" height="150">  |
 
-# Augmentation Types
+
+
+## Augmentation Types
 - color inversion
 - exposure
 - gamma
