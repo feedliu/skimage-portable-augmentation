@@ -60,4 +60,6 @@ It's OK.
 
 </center>
 
+## Refference
+[kaggle notebook](https://www.kaggle.com/tomahim/image-manipulation-augmentation-with-skimage/notebook)
 
